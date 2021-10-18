@@ -9,11 +9,11 @@ public interface LaptopDAO {
 
 	void updateLaptopDetails();
 
-	void updateLaptopDetails(String name, int rollno);
+	void updateLaptopDetails(String name, int modleno);
 
 	void deleteLaptopDetails();
 
-	void deleteLaptopDetails(int rollno);
+	void deleteLaptopDetails(int modleno);
 
 	void readAllRecords();
 }
